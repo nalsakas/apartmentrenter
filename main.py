@@ -1,5 +1,7 @@
 import math
 
+# Blocks of apartments
+# Some apartments have targets in bloks, some don't
 blocks = [
     {
         "gym": False,
@@ -28,6 +30,7 @@ blocks = [
     },
 ]
 
+# Targets
 reqs = ["gym", "school", "store"]
 
 # Calculate distance of each reqs for all blocks
